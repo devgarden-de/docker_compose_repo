@@ -1,14 +1,22 @@
-# docker_compose_repo
+# Docker Compose Repo.
 
 # Install
+Kurze Anleitung zur Instalation des Repo's.
 
-## Terminal 
-> mkdir ~/docker-compose && cd ~/docker-compose
+## Terminal
+Erstelle Ordnerstruktur.
+``` bash
+mkdir ~/docker-compose && cd ~/docker-compose
+```
+Kopiere das Perository.
+``` bash
+git clone https://github.com/devgarden-de/docker_compose_repo.git
+```
+Führe Docker compose aus.
+``` bash
+docker compose up -d 
+```
 
-> git clone https://github.com/devgarden-de/docker_compose_repo.git
+Der Container sollte nun unter der nachfolgenden URL aufrufbar sein.
 
-> docker compose up -d 
-
-# Open n8n on your local mashine 
-
-> http://localhost:5678/
+http://localhost:5678/
