@@ -12,6 +12,11 @@ Kopiere das Perository.
 ``` bash
 git clone https://github.com/devgarden-de/docker_compose_repo.git
 ```
+Gehe in das gewünschte Verzeichniss z.B. "n8n_light"
+```bash
+cd n8n_light
+```
+
 Führe Docker compose aus.
 ``` bash
 docker compose up -d 
